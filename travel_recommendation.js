@@ -16,9 +16,10 @@ fetch("./travel_recommendation.json")
 document.getElementById("searchBtn").addEventListener("click", function(){
     let keyword = document.getElementById("searchInput").value.toLowerCase();
 
-    let resultsContainer = document.getElementById("results").style.display = "grid";
+    let resultsContainer = document.getElementById("results");
     resultsContainer.innerHTML = "";
-
+    
+    document.getElementById("results").style.display = "grid";
     document.getElementById("results").scrollIntoView({
         behavior: "smooth"
     });
@@ -62,8 +63,10 @@ if(keyword.includes("beach")){
 
 
 document.getElementById("clearBtn").addEventListener("click", function() {
+    document.getElementById("results").style.display = "none";
     // Limpiar resultados
     document.getElementById("results").innerHTML = "";
     // Limpiar input
     document.getElementById("searchInput").value = "";
+
 })

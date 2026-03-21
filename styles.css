@@ -177,7 +177,7 @@ body{
 }
 /* resultados de search */
 #results{
-    display:grid;
+    display:none;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap:40px;
     padding:80px;

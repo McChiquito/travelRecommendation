@@ -16,7 +16,7 @@ fetch("./travel_recommendation.json")
 document.getElementById("searchBtn").addEventListener("click", function(){
     let keyword = document.getElementById("searchInput").value.toLowerCase();
 
-    let resultsContainer = document.getElementById("results");
+    let resultsContainer = document.getElementById("results").style.display = "grid";
     resultsContainer.innerHTML = "";
 
     document.getElementById("results").scrollIntoView({

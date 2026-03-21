@@ -1,0 +1,54 @@
+# 🌍 Travel Recommendation Web App
+
+A dynamic travel recommendation web application that allows users to search destinations and display filtered results using JavaScript and JSON data.
+
+## 🚀 Live Demo
+
+https://mcchiquito.github.io/travelRecommendation/
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (DOM Manipulation)
+* JSON Data Handling
+
+## ✨ Features
+
+* Destination search functionality
+* Dynamic rendering of travel recommendations
+* Data filtering using JavaScript
+* Interactive UI updates
+* Responsive layout
+* Clean navigation structure
+
+## 📸 Screenshots
+
+### Home View
+
+![Home](./screenshots/home.png)
+
+### Search Results
+
+![Results](./screenshots/results.png)
+
+
+## 🎯 What I Learned
+
+* Working with structured JSON data
+* Implementing search and filtering logic
+* Dynamically updating the DOM
+* Structuring modular frontend logic
+* Deploying web applications using GitHub Pages
+
+## 🚧 Future Improvements
+
+* Add API-based destination data
+* Improve animations and transitions
+* Implement loading states
+* Add pagination or category filters
+
+## 👨‍💻 Author
+
+**Yahir Zaele**
+Frontend Developer in training 🚀
